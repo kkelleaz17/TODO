@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    margin: 0px;
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+.TOP{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100px;
+ flex-direction: column;
+}
+.TOP input,.TOP button{
+font-size: 15px;
+}
+
+
+#NOTES-WRAPPER{
+    margin-top: 15px;
+    padding-block: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.COUNT{
+    width: 320px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 5px;
+    position: relative;
+    cursor:pointer
+}
+.BTN{
+    background-color: transparent;
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    color: transparent;
+    border: none;
+}
+
+.LEFT{
+    left: -12px;
+    border-left:solid 2px black;
+    border-top:solid 2px black;
+    border-bottom:solid 2px black;
+}
+.RIGHT{
+    right:-12px;
+    border-right:solid 2px black;
+    border-top:solid 2px black;
+    border-bottom:solid 2px black;
+}
+
+
+
+
+
+
+
+.BTN:hover{
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.DIVY{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#NOTES-WRAPPER div p,#NOTES-WRAPPER div button{
+    margin-inline:12px;
+}
+
